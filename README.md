@@ -46,3 +46,77 @@
 - 서버구동 후 인터넷 브라우저에 `localhost:8000` 입력 후 확인
 
   ![image-20220921150702882](images/image-20220921150702882.png)
+
+# Django Project 시작
+
+- 가상환경 실행 후 startapp 만들기
+
+  ![image-20220928113342216](images/image-20220928113342216.png)
+
+- 메인프로젝트폴더(day4)하위에 templates폴더 생성 후 하위에 base.html 파일 생성 후 설정
+
+  ![image-20220928115710031](images/image-20220928115710031.png)
+
+- 프로젝트폴더 - settings.py - app 추가
+
+  ![image-20220928113101582](images/image-20220928113101582.png)
+
+- 프로젝트폴더 - urls.py - path설정
+
+  ![image-20220928113447331](images/image-20220928113447331.png)
+
+- 앱폴더(posts) - 새파일 생성(urls.py) 후 설정
+
+  ![image-20220928114551886](images/image-20220928114551886.png)
+
+- 앱폴더(posts) - views.py - view함수 설정 (메인페이지 생성)
+
+  ![image-20220928114928108](images/image-20220928114928108.png)
+
+- 앱폴더(posts) 하위에 templates폴더 생성 - templates폴더 하위에 posts폴더 생성 - posts폴더 하위에 index.html 생성 후 설정
+
+  ![image-20220928120214513](images/image-20220928120214513.png)
+
+- 앱폴더(posts) - urls.py에 path 설정
+
+  ![image-20220928120801318](images/image-20220928120801318.png)
+
+- 앱폴더(posts) - views.py def 설정(templates폴더하위에 posts폴더로 묶어줬기 때문에 경로 재설정 posts/)
+
+  ![image-20220928121016816](images/image-20220928121016816.png)
+
+- 앱폴더(posts) - templates폴더 - posts폴더 하위에 new.html 생성 후 설정
+
+  ![image-20220928121921535](images/image-20220928121921535.png)
+
+- 앱폴더(posts) - urls.py 설정
+
+  ![image-20220928122149265](images/image-20220928122149265.png)
+
+- 앱폴더(posts) - views.py 설정
+
+  ![image-20220928122849076](images/image-20220928122849076.png)
+
+- 앱폴더(posts) - templates폴더 - posts폴더 하위에 create.html 생성 후 설정
+
+  ![image-20220928123225087](images/image-20220928123225087.png)
+
+- 앱폴더(posts) - models.py(저장하는 역할)
+
+  ![image-20220928123858899](images/image-20220928123858899.png)
+
+- 마이그레이션 파일생성
+
+- ㅇ
+
+- ㅇ
+
+- ㅇ
+
+- ㅇ
+
+- ㅇ
+
+- ㅇ
+
+- 
